@@ -1,6 +1,8 @@
 # @0xward/twinpayai-client
 
-TwinPay AI is an AI-powered payment agent built on the Stacks blockchain. Instead of manually constructing complex blockchain operations, describe what you want to pay for in plain English, and the AI audits and prepares the transaction for signature.
+![NPM Version](https://img.shields.io/npm/v/@0xward/twinpayai-client) ![NPM Downloads](https://img.shields.io/npm/dm/@0xward/twinpayai-client) ![License](https://img.shields.io/npm/l/@0xward/twinpayai-client)
+
+TwinPay AI is an AI-powered payment agent built on the Stacks blockchain.
 
 ## Features
 - **Natural Language Parsing:** Maps plain English intents directly to blockchain transactional structures.
