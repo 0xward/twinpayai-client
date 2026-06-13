@@ -10,7 +10,35 @@
   <a href="https://www.npmjs.com/package/@0xward/twinpayai-client"><img src="https://img.shields.io/npm/l/@0xward/twinpayai-client?style=flat-square" alt="License" /></a>
 </p>
 
-TwinPay AI Automated Payment Client—core computational logic for decentralized intelligence frameworks built on STACKS ecosystems.
+An automated payment initialization client designed to enable autonomous software entities to programmatically dispatch and audit digital currency transfers on the Stacks layer-2 environment.
+
+---
+
+## Installation
+
+### Prerequisites
+- Node.js >= 18.0.0
+- npm >= 9.0.0 (or yarn >= 1.22.0 / pnpm >= 8.0.0)
+
+### Package Deployment
+Execute the targeted acquisition command matching your production environment package manager setup:
+
+```bash
+# Using Node Package Manager (Default)
+npm install @0xward/twinpayai-client
+
+# Using Yarn Package Manager
+yarn add @0xward/twinpayai-client
+
+# Using PNPM Package Manager
+pnpm add @0xward/twinpayai-client
+```
+
+### Peer Dependencies
+For secure runtime cryptographic executions and ledger state mutations, ensure your runtime container establishes communication boundaries with the primary network bindings if processing on-chain blocks:
+- For Stacks L2 layers: @stacks/transactions (>= 6.x) and @stacks/common for atomic cryptographically signed payload routing.
+
+---
 
 ## Core Capabilities
 
@@ -30,7 +58,6 @@ async function processPayment() {
     const result = await client.initiateAiPayment("0xward.btc", 50.00);
     console.log("Transaction Receipt Parameters:", result);
 }
-
 processPayment();
 ```
 
