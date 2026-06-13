@@ -1,0 +1,16 @@
+{
+  "name": "@0xward/twinpayai-client",
+  "version": "1.0.0",
+  "description": "Governance poll and soulbound token helper for TwinPayAI.",
+  "main": "index.js",
+  "keywords": [
+    "0xward",
+    "web3",
+    "utility"
+  ],
+  "author": "0xward",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
