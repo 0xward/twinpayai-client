@@ -1,13 +1,9 @@
 <p align="center">
-  <img src="./assets/header-sync.svg" alt="0xward Core Intelligence Sync Animation" width="120" height="120" />
 </p>
 
 # @0xward/twinpayai-client
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@0xward/twinpayai-client"><img src="https://img.shields.io/npm/v/@0xward/twinpayai-client?style=flat-square" alt="NPM Version" /></a>
-  <a href="https://www.npmjs.com/package/@0xward/twinpayai-client"><img src="https://img.shields.io/npm/dm/@0xward/twinpayai-client?style=flat-square" alt="NPM Downloads" /></a>
-  <a href="https://www.npmjs.com/package/@0xward/twinpayai-client"><img src="https://img.shields.io/npm/l/@0xward/twinpayai-client?style=flat-square" alt="License" /></a>
 </p>
 
 An automated payment initialization client designed to enable autonomous software entities to programmatically dispatch and audit digital currency transfers on the Stacks layer-2 environment.
