@@ -1,6 +1,6 @@
 {
   "name": "@0xward/twinpayai-client",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "AI-powered transaction payment agent built on the Stacks blockchain secured by Bitcoin.",
   "main": "index.js",
   "keywords": [
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/0xward/twinpayai-client/issues"
   },
-  "homepage": "https://www.npmjs.com/package/@0xward/twinpayai-client#readme"
+  "homepage": "https://www.npmjs.com/package/@0xward/twinpayai-client#readme",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
 }
