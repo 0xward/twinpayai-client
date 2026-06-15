@@ -26,7 +26,7 @@ class TwinPayClient {
         this.networkConfig = STACKS_NETWORKS[net];
         this.networkName   = net;
         this.feeRate       = config.feeRate || DEFAULT_FEE_MICRO_STX;
-        this.version       = "1.1.7";
+        this.version       = "1.1.4";
     }
 
     _validateRecipient(recipient) {
