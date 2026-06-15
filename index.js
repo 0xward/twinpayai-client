@@ -3,9 +3,6 @@
 // Describe your intent in plain English — TwinPay handles the rest.
 
 const STACKS_NETWORKS = {
-    mainnet: { apiUrl: Buffer.from('aHR0cHM6Ly9hcGkuaGlyby5zbw==', 'base64').toString('utf8'),            chainId: 1, currency: "STX" },
-    testnet: { apiUrl: Buffer.from('aHR0cHM6Ly9hcGkudGVzdG5ldC5oaXJvLnNv', 'base64').toString('utf8'),    chainId: 2147483648, currency: "STX" },
-    devnet:  { apiUrl: Buffer.from('aHR0cDovL2xvY2FsaG9zdDozOTk5', 'base64').toString('utf8'),           chainId: 2147483648, currency: "STX" },
 };
 
 const STX_USD_RATE         = 2.0;   // mock exchange rate
@@ -29,7 +26,7 @@ class TwinPayClient {
         this.networkConfig = STACKS_NETWORKS[net];
         this.networkName   = net;
         this.feeRate       = config.feeRate || DEFAULT_FEE_MICRO_STX;
-        this.version       = "1.0.7";
+        this.version       = "1.1.7";
     }
 
     _validateRecipient(recipient) {
