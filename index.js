@@ -3,6 +3,21 @@
 // Describe your intent in plain English — TwinPay handles the rest.
 
 const STACKS_NETWORKS = {
+    mainnet: {
+        chainId:  1,
+        apiUrl:   "https://api.hiro.so",
+        currency: "STX",
+    },
+    testnet: {
+        chainId:  2147483648,
+        apiUrl:   "https://api.testnet.hiro.so",
+        currency: "STX",
+    },
+    devnet: {
+        chainId:  2147483648,
+        apiUrl:   "http://localhost:3999",
+        currency: "STX",
+    },
 };
 
 const STX_USD_RATE         = 2.0;   // mock exchange rate
@@ -26,7 +41,7 @@ class TwinPayClient {
         this.networkConfig = STACKS_NETWORKS[net];
         this.networkName   = net;
         this.feeRate       = config.feeRate || DEFAULT_FEE_MICRO_STX;
-        this.version       = "1.1.4";
+        this.version       = "1.1.5";
     }
 
     _validateRecipient(recipient) {
